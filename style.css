@@ -1,0 +1,168 @@
+.medsos {
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 20px;
+    border-radius: 50%;
+    background: #343638;
+    color: #ffb400;
+    height: 70px;
+    width: 70px;
+}
+
+.kiri {
+    text-align: right;
+    border-right: 1px solid;
+    padding-right: 50px;
+    line-height: 1.75;
+}
+
+.kanan {
+    border-left: 1px solid;
+    padding-left: 50px;
+    line-height: 1.75;
+}
+
+.warna {
+    color: #ffb400;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.warna a {
+    color: #ffb400;
+}
+
+.float-wa {
+    background: #2db742;
+    color: white;
+    bottom: 20px;
+    position: fixed;
+    width: 78px;
+    height: 78px;
+    font-size: 47px;
+    z-index: 12;
+    right: 20px;
+    padding: 2px 20px;
+    border-radius: 43px;
+    cursor: pointer;
+}
+
+.fa-whatsapp:before {
+    content: "\f232";
+    margin-right: 8px;
+}
+
+.fa-phone:before {
+    content: "\f095";
+    margin-right: 8px;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    margin-right: 8px;
+}
+
+.login-trigger {
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to bottom right, #B05574, #F87E7B);
+    padding: 5px 20px;
+    margin: auto;
+    border-radius: 30px;
+    position: relative; 
+    right: -55rem;
+    /* top: 50%; */
+  }
+  
+  .login-trigger:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to bottom right, #B05574, #F87E7B);
+    padding: 5px 20px;
+    margin: auto;
+    border-radius: 30px;
+    position: relative; 
+    right: -55rem;
+    /* top: 50%; */
+  }
+  /*Modal*/
+  h4 {
+    font-weight: bold;
+    color: #fff;
+  }
+  .close {
+    color: #fff;
+    transform: scale(1.2)
+  }
+  .modal-content {
+    font-weight: bold;
+    background: linear-gradient(to bottom right,#F87E7B,#B05574);
+  }
+  .form-control {
+    margin: 1em 0;
+  }
+  .form-control:hover, .form-control:focus {
+    box-shadow: none;  
+    border-color: #fff;
+  }
+  .username, .password {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2px solid #eee;
+    padding-left: 10px;
+    font-weight: normal;
+    background: transparent;  
+  }
+  .form-control::-webkit-input-placeholder {
+    color: #eee;  
+  }
+  .form-control:focus::-webkit-input-placeholder {
+    font-weight: bold;
+    color: #fff;
+  }
+  .login {
+    padding: 6px 20px;
+    border-radius: 20px;
+    background: none;
+    border: 2px solid #FAB87F;
+    color: #FAB87F;
+    font-weight: bold;
+    transition: all .5s;
+    margin-top: 1em;
+  }
+  .login:hover {
+    background: #FAB87F;
+    color: #fff;
+  }
+
+  @media only screen and (max-width: 600px){
+  #left {
+    text-align: center !important;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+  #right {
+    text-align: center !important;
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }
+
+  #carouselId {
+    display: none !important;
+  }
+
+  #navheader{
+    background-color: white !important;
+  }
+}
